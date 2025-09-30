@@ -1,0 +1,144 @@
+{
+  "sections": [
+    {
+      "id": "perspective",
+      "order": 1,
+      "title": "Eingabeperspektive",
+      "description": "Wählen Sie die Perspektive aus, aus der Sie die Aufgabe angehen möchten",
+      "options": [
+        {
+          "id": "user",
+          "label": "Benutzer/Kunde",
+          "text": "Als Benutzer/Kunde möchte ich"
+        },
+        {
+          "id": "developer", 
+          "label": "Entwickler",
+          "text": "Als Entwickler muss ich"
+        },
+        {
+          "id": "manager",
+          "label": "Projektmanager",
+          "text": "Als Projektmanager plane ich"
+        },
+        {
+          "id": "analyst",
+          "label": "Analyst",
+          "text": "Als Analyst analysiere ich"
+        }
+      ]
+    },
+    {
+      "id": "audience",
+      "order": 2,
+      "title": "Zielgruppe",
+      "description": "Definieren Sie Ihre Zielgruppe für präzisere Antworten",
+      "options": [
+        {
+          "id": "technical",
+          "label": "Technische Experten",
+          "text": "Erkläre es für technische Experten mit detaillierten technischen Informationen."
+        },
+        {
+          "id": "business",
+          "label": "Geschäftsleute",
+          "text": "Erkläre es für Geschäftsleute mit Fokus auf Geschäftswert und ROI."
+        },
+        {
+          "id": "beginners",
+          "label": "Anfänger",
+          "text": "Erkläre es für Anfänger mit einfachen Begriffen und Schritt-für-Schritt-Anleitungen."
+        },
+        {
+          "id": "general",
+          "label": "Allgemeine Zielgruppe",
+          "text": "Erkläre es für eine allgemeine Zielgruppe mit ausgewogener Detailtiefe."
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "order": 3,
+      "title": "Antwort-Stil",
+      "description": "Wählen Sie den gewünschten Stil für die KI-Antwort",
+      "options": [
+        {
+          "id": "detailed",
+          "label": "Detailliert",
+          "text": "Gib eine umfassende, detaillierte Antwort mit Beispielen."
+        },
+        {
+          "id": "concise",
+          "label": "Prägnant",
+          "text": "Gib eine kurze, prägnante Antwort mit den wichtigsten Punkten."
+        },
+        {
+          "id": "creative",
+          "label": "Kreativ",
+          "text": "Sei kreativ und innovativ in deinem Ansatz."
+        },
+        {
+          "id": "analytical",
+          "label": "Analytisch",
+          "text": "Verwende einen analytischen, datengetriebenen Ansatz."
+        }
+      ]
+    },
+    {
+      "id": "format",
+      "order": 4,
+      "title": "Ausgabeformat",
+      "description": "Spezifizieren Sie das gewünschte Format für die Antwort",
+      "options": [
+        {
+          "id": "bullet_points",
+          "label": "Aufzählungspunkte",
+          "text": "Strukturiere die Antwort als Aufzählungspunkte."
+        },
+        {
+          "id": "numbered_list",
+          "label": "Nummerierte Liste",
+          "text": "Strukturiere die Antwort als nummerierte Liste."
+        },
+        {
+          "id": "code_examples",
+          "label": "Code-Beispiele",
+          "text": "Füge relevante Code-Beispiele und Implementierungen hinzu."
+        },
+        {
+          "id": "step_by_step",
+          "label": "Schritt-für-Schritt",
+          "text": "Gib eine Schritt-für-Schritt-Anleitung."
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "order": 5,
+      "title": "Kontext & Einschränkungen",
+      "description": "Fügen Sie spezifischen Kontext oder Einschränkungen hinzu",
+      "options": [
+        {
+          "id": "time_sensitive",
+          "label": "Zeitkritisch",
+          "text": "Dies ist zeitkritisch und benötigt eine schnelle Lösung."
+        },
+        {
+          "id": "budget_conscious",
+          "label": "Budgetbewusst",
+          "text": "Berücksichtige budgetfreundliche/kosteneffiziente Optionen."
+        },
+        {
+          "id": "best_practices",
+          "label": "Best Practices",
+          "text": "Konzentriere dich auf Branchenstandards und Best Practices."
+        },
+        {
+          "id": "future_proof",
+          "label": "Zukunftssicher",
+          "text": "Berücksichtige Skalierbarkeit und zukünftige Anforderungen."
+        }
+      ]
+    }
+  ]
+}

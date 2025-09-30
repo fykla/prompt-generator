@@ -1,0 +1,17 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "flag": "🇺🇸",
+      "promptFile": "/src/data/prompt-config.json"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "flag": "🇩🇪", 
+      "promptFile": "/src/data/prompt-config-de.json"
+    }
+  ],
+  "default": "en"
+}

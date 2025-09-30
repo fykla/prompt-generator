@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "id": "inputPerspective",
+      "order": 1,
+      "title": "Input Perspective",
+      "description": "Choose the perspective for analyzing input",
+      "options": [
+        {
+          "id": "first_person",
+          "label": "First Person",
+          "text": "Analyze this from a first-person perspective:"
+        },
+        {
+          "id": "third_person",
+          "label": "Third Person Observer",
+          "text": "Analyze this from an objective, third-person perspective:"
+        },
+        {
+          "id": "expert",
+          "label": "Expert Analysis",
+          "text": "Provide an expert-level analysis of:"
+        },
+        {
+          "id": "beginner",
+          "label": "Beginner-Friendly",
+          "text": "Explain this in beginner-friendly terms:"
+        }
+      ]
+    },
+    {
+      "id": "targetGroup",
+      "order": 2,
+      "title": "Target Audience",
+      "description": "Define who this content is for",
+      "options": [
+        {
+          "id": "general",
+          "label": "General Audience",
+          "text": "for a general audience"
+        },
+        {
+          "id": "professionals",
+          "label": "Business Professionals",
+          "text": "for business professionals and executives"
+        },
+        {
+          "id": "technical",
+          "label": "Technical Experts",
+          "text": "for technical experts and developers"
+        },
+        {
+          "id": "students",
+          "label": "Students & Learners",
+          "text": "for students and people learning this topic"
+        },
+        {
+          "id": "researchers",
+          "label": "Researchers",
+          "text": "for researchers and academics"
+        }
+      ]
+    },
+    {
+      "id": "languageStyle",
+      "order": 3,
+      "title": "Language Style",
+      "description": "Set the tone and style of communication",
+      "options": [
+        {
+          "id": "formal",
+          "label": "Formal",
+          "text": "Use formal, professional language."
+        },
+        {
+          "id": "conversational",
+          "label": "Conversational",
+          "text": "Use a conversational, friendly tone."
+        },
+        {
+          "id": "academic",
+          "label": "Academic",
+          "text": "Use academic language with proper citations and terminology."
+        },
+        {
+          "id": "simple",
+          "label": "Simple & Clear",
+          "text": "Use simple, clear language that's easy to understand."
+        },
+        {
+          "id": "creative",
+          "label": "Creative",
+          "text": "Use creative, engaging language with vivid descriptions."
+        }
+      ]
+    },
+    {
+      "id": "contextInformation",
+      "order": 4,
+      "title": "Context Information",
+      "description": "Add relevant context to improve responses",
+      "options": [
+        {
+          "id": "current_trends",
+          "label": "Current Trends",
+          "text": "Consider current market trends and developments."
+        },
+        {
+          "id": "best_practices",
+          "label": "Industry Best Practices",
+          "text": "Include industry best practices and standards."
+        },
+        {
+          "id": "case_studies",
+          "label": "Real Examples",
+          "text": "Provide real-world examples and case studies."
+        },
+        {
+          "id": "constraints",
+          "label": "Common Constraints",
+          "text": "Consider typical budget, time, and resource constraints."
+        },
+        {
+          "id": "regulations",
+          "label": "Regulations & Compliance",
+          "text": "Include relevant regulations and compliance requirements."
+        }
+      ]
+    },
+    {
+      "id": "outputFormat",
+      "order": 5,
+      "title": "Output Format",
+      "description": "Specify how you want the response structured",
+      "options": [
+        {
+          "id": "bullet_points",
+          "label": "Bullet Points",
+          "text": "Format the response as clear bullet points."
+        },
+        {
+          "id": "numbered_list",
+          "label": "Numbered List",
+          "text": "Organize the response as a numbered list."
+        },
+        {
+          "id": "structured_sections",
+          "label": "Structured Sections",
+          "text": "Break down the response into clearly labeled sections."
+        },
+        {
+          "id": "step_by_step",
+          "label": "Step-by-Step Guide",
+          "text": "Provide a detailed step-by-step guide."
+        },
+        {
+          "id": "summary_details",
+          "label": "Summary + Details",
+          "text": "Start with a brief summary, then provide detailed explanations."
+        },
+        {
+          "id": "pros_cons",
+          "label": "Pros & Cons",
+          "text": "Include pros and cons analysis where relevant."
+        }
+      ]
+    }
+  ]
+}

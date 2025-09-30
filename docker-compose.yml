@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  prompt-builder:
+    build: .
+    ports:
+      - "8080:80"
+    # volumes:
+      # Optional: Override prompt configuration files
+      # Uncomment and customize the lines below to override default configurations
+      # - ./custom-config/prompt-config.json:/usr/share/nginx/html/config/prompt-config.json:ro
+      # - ./custom-config/prompt-config-de.json:/usr/share/nginx/html/config/prompt-config-de.json:ro
+      # - ./custom-config/languages.json:/usr/share/nginx/html/config/languages.json:ro
+    environment:
+      # Optional: Set to 'true' to use custom config files from volume
+      - USE_CUSTOM_CONFIG=false
+    restart: unless-stopped
+
